@@ -1,0 +1,493 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+.header{
+    background-color: #fff;
+    height: 46px;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+}
+
+
+#nav {
+    display: inline-block;
+}
+#nav li{
+    display: inline-block;
+}
+
+
+#nav li a{
+    color: #000;
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: inline-block;
+}
+#nav li:hover a{
+    background-color: #ccc;
+    color: #000;
+}
+.ti-search {
+    padding: 15px 15px;
+    float: right;
+}
+.ti-search:hover  {
+    background-color: red;
+}
+
+.slider{
+
+    background: url(https://www.w3schools.com/w3images/parallax1.jpg) top center /cover no-repeat;
+    padding-top: 50%;
+    margin-top: 46px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+   width: 100%;
+   position: relative;
+}
+.slider-content{
+    position: absolute;
+    margin-top: 46px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    background-color: #000;
+    padding: 13px 20px;
+    text-shadow: 0 0 black;
+
+}
+
+.content{
+
+}
+.content-section{
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content{
+    margin-top: 70px;
+}
+.content-section{
+ 
+    overflow: hidden;
+}
+.content-about{
+color: #777;
+}
+.content-heading{
+    text-align: center;
+
+}
+.content-sub-heading{
+    text-align: center;
+    padding-top: 20px;
+}
+.content-text{
+    padding-top: 30px;
+    line-height: 1.4;
+}
+
+.content-girl{
+    overflow: hidden;
+    margin-top: 50px;
+}
+.girl-item{
+
+    float: left;
+    width: 50%;
+    padding-left: 30px;
+    padding-right: 30px;
+    color: #777;
+}
+.girl-heading1{
+text-align: center;
+}
+.ti-user{
+
+}
+.img-girl{
+    padding-top: 40px;
+    width: 100%;
+}
+.girl-heading2{
+    line-height: 1.6;
+}
+.content-colum{
+    margin-top: 55px;
+    color: #777;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+.girl-colum-main{
+    text-align: center;
+}
+
+
+.girl-column-title{
+margin-top: 33px;
+}
+
+.girl-column-title i{
+    padding-right: 10px;
+}
+
+.form{
+    padding: 9px;
+    margin-top: 15px;
+    background-color: #616161;
+    text-align: center;
+    color: #fff;
+}
+
+.girl-column-title{
+
+}
+
+
+.percent1{
+    width: 90%;
+}
+.percent2{
+    width: 85%;
+    }
+.percent3{
+    width: 75%;
+}
+
+
+.slider-part2{
+    background: url(http://127.0.0.1:5500/assets/img/img-anh/cogaima.jpg) top center /cover no-repeat;
+    margin-top: 46px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    background-position: center;
+    min-height: 400px;
+ }
+
+
+
+
+    .slider-content-part1{
+        display: flex;
+        justify-content: center;
+        justify-content: space-around;
+        position: absolute;
+        top: 0%;
+        background-color: #616161;
+        font-size: 22px;
+        padding: 23px 32px;
+        width: 100%;
+    }
+
+    
+    .slider-content-item{
+    
+    }
+
+    .slider-content-item p{
+    color: #fff;
+    margin: 8px ;
+    }
+
+
+    .slider-content-part2{
+        position: absolute;
+        margin-top: 46px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: #fff;
+        font-size: 35px;
+        letter-spacing: 4px;
+        padding: 13px 20px;
+        text-shadow: 0 0 black;
+    
+    }
+
+
+.content-work{
+        overflow: hidden;
+        margin-top: 72px;
+        color: #777;
+    }
+   
+.work-title{
+    text-align: center;
+    font-size: 22px;
+    font-weight: 550;
+    }
+.work-text{
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+    padding-top: 20px;
+}
+
+.work-text2{
+    text-align: center;
+    font-style: italic;
+    font-size: 17px;
+    padding-top: 7px;
+}
+    .work-list{
+        overflow: hidden;
+        margin-left: -8px;
+        margin-right: -8px;
+        margin-top: 40px;
+    }
+.work-item{
+        float: left;
+        width: 25%;
+        padding-left: 8px;
+        padding-right: 8px;
+}
+
+.img-work{
+    width: 100%;
+    border-radius: 2px;
+
+}
+.img-work:hover{
+    opacity: 0.7;
+
+}
+
+.load-more{
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+    padding: 16px 21px;
+    width: fit-content;
+    margin-left: auto;
+    color: #000;
+    margin-right: auto;
+}
+.load-more:hover{
+    background-color: #ccc;
+}
+
+
+.slider-part3{
+    background: url(https://www.w3schools.com/w3images/parallax3.jpg) top center /cover no-repeat;
+    margin-top: 46px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    position: relative;
+    min-height: 300px;
+    opacity: 0.8;
+    }
+.slider-content-part3{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        text-align: center;
+        color: #fff;
+        font-size: 40px;
+        letter-spacing: 4px;
+        text-shadow: 0 0 black;
+    
+ }
+.contact-main{
+    margin-top: 70px;
+    color: #777;
+}
+.contact-title{
+
+    text-align: center; 
+    }
+.contact-text{
+       text-align: center; 
+
+}
+
+ 
+.contact-list{
+        overflow: hidden;
+        color: #777;
+        font-size: 20px;
+        margin-top: 50px;
+   }
+    .contact-item{
+        width: 50%;
+        float: left;    
+    }
+    .img-map{
+        width: 75%;
+    }
+
+    .row{
+        display: flex;
+        margin-left: -4px;
+        margin-right: -4px;
+    }
+    
+    .col{
+       padding-left: 4px;
+       padding-right: 4px;
+    }
+.col-half{
+        width: 50%;
+}
+.col-full{
+    width: 100%;
+}
+
+.contact-infor{
+    margin-top: 20px;
+}
+.address {
+    padding-top: 4px;
+}
+
+.address i{
+    padding-right: 8px;
+} 
+
+.contact-tip{
+    font-size: 15px;
+    padding-top: 10px;
+}
+    
+.contact-form{
+    margin-top: 17px;
+    margin-right: 15px;
+
+}
+
+.input-form{
+
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+.input-form2{
+    margin-top: 10px;
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+}
+.send-message{
+    padding: 10px 18px;
+    margin-top: 12px;
+    background-color: #000;
+    color: #fff;    
+
+}
+
+.send-message:hover{
+   opacity: 0.6;
+
+}
+.footer{
+        margin-top: 100px;
+        background-color: #666;
+        padding: 100px;
+        color: #fff;
+
+}
+
+.footer:hover{
+    background-color: #000;
+
+
+}
+
+.footer-top{
+    text-align: center;
+    color: #777;
+    background-color: #fff;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 14px;
+}
+
+.footer-top a{
+        text-decoration: none;
+        color: #777;
+       
+}
+.footer-top:hover{
+    opacity: 0.8;
+}
+
+.footer-icon{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+
+
+}
+
+.footer-icon a{
+text-decoration: none;
+color: #fff;
+padding: 0 3px;
+}
+
+@media (min-width: 780px) and (max-width:1024px) {
+    .girl-item{
+        width: 100%;
+    }
+
+    .work-item{
+        width: 50%;
+    }
+
+    .contact-item{
+        width: 100%;
+    }
+
+    #nav{
+        display: none;
+    }
+   
+}
+
+@media (max-width:780px) {
+    .girl-item{
+        width: 100%;
+    }
+
+.work-item{
+        width: 100%;
+}
+
+.contact-item{
+    width: 100%;
+}
+
+
+
+#nav{
+    display: none;
+}
+
+
+}
